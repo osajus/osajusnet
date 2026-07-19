@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 107 Practice Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="page-header">
+        <h1 id="pageTitle">Part 107 Practice Test</h1>
+        <div class="font-controls" aria-label="Text size controls">
+            <button id="decreaseFont" type="button" aria-label="Decrease text size">A−</button>
+            <button id="increaseFont" type="button" aria-label="Increase text size">A+</button>
+        </div>
+    </div>
+
+    <div id="startSection">
+        <p>This is a practice test for the Part 107 exam.</p>
+        <p>This is for self-evaluation only.  No data is kept by the site owner.</p>
+        <p>Many of these questions require the FAA publication: <br> <a href="https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf" target="_new">Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot and Private Pilot (FAA-CT8080-2H [Publish Date: 2018])</a> </p>
+        <p>Alternatively, a smaller curated version of this publication is available <a href=" https://drive.proton.me/urls/Z7NJRJZ7VR#mUXn88BrjZVA" target="_new">here</a></p>
+        <p>Please wait to begin the test until you have been instructed.</p>
+        <p>Once finished, leave this site up and please move yourself to the Zoom room "I'm Finished".  Wait for further instructions from your instructor.</p>
+        <button id="beginBtn">Begin</button>
+    </div>
+
+    <div id="testSection">
+        <form>
+            <h2 id="question_number">Question </h2>
+            <p id="question_text">Question Text</p>
+            <ol id="possible_answers">
+                <li>
+                    <input type="radio" id="answerA" name="answers" value="0">
+                    <label for="answerA" id="labelA" class="blank">Answer A</label>
+                </li>
+                <li>
+                    <input type="radio" id="answerB" name="answers" value="1">
+                    <label for="answerB" id="labelB" class="blank">Answer B</label>
+                </li>
+                <li>
+                    <input type="radio" id="answerC" name="answers" value="2">
+                    <label for="answerC" id="labelC" class="blank">Answer C</label>
+                </li>
+            </ol>
+            <p id="feedback"></p>
+        </form>
+        <button id="prevPage">Previous</button>
+        <button id="nextPage">Next</button><br><br>
+        <button id="endBtn">Finish Test</button>
+    </div>
+
+    <div id="endSection">
+        <p>The test has ended.</p>
+        <p>Leave this site up and please move yourself to the Zoom room "I'm Finished". Wait for further instructions from your instructor.</p>
+        <p>Once everyone is finished, your instructor will provide you a password for review.</p>
+        <div id="scoreResults"></div>
+
+        <div class="password-row" id="reviewPasswordBox">
+            <label for="reviewPassword">Enter review password:</label>
+            <input id="reviewPassword" type="password" aria-label="Review password" autocomplete="off">
+            <button id="reviewPasswordSubmit" type="button">Unlock Review</button>
+            <p id="reviewMessage" class="hint" aria-live="polite"></p>
+        </div>
+
+        <p><button id="reviewBtn" type="button" hidden>Review from Start</button></p>
+        <br><br>
+        <p><button id="restartBtn" type="button">Erase and Restart</button></p>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
