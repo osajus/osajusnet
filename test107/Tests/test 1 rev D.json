@@ -7,8 +7,7 @@
       "180 degrees magnetic at 4 knots",
       "040 degrees true at 18 knots"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 2,
@@ -18,8 +17,7 @@
       "Sky 7,000 feet overcast, visibility 1-1/2SM, heavy rain.",
       "Sky 700 feet overcast, visibility 1-1/2SM, rain."
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 3,
@@ -29,8 +27,7 @@
       "overcast at 200 feet with the probability of becoming overcast at 400 feet during the forecast period between 2200Z and 2400Z.",
       "overcast at 200 feet with a 40% probability of becoming overcast at 600 feet during the forecast period between 2200Z and 2400Z."
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 4,
@@ -40,8 +37,7 @@
       "Variable in direction at 6 knots",
       "No significant wind"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 5,
@@ -51,8 +47,7 @@
       "N 36 degrees 16' W 76 degrees 10'",
       "N 37 degrees 0' W 77 degrees 10'"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 6,
@@ -62,8 +57,7 @@
       "47º44'N - 100º44'W",
       "48º16'N - 100º44'W"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 7,
@@ -73,8 +67,7 @@
       "Magee",
       "Shoshone"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 8,
@@ -84,8 +77,7 @@
       "Authorization from the MOA",
       "Authorization from the National Park Service"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 9,
@@ -95,8 +87,7 @@
       "Class C",
       "Class D"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 10,
@@ -106,8 +97,7 @@
       "Class E airspace from the surface to 1,200 feet MSL",
       "Class G airspace from the surface up to but not including 700 feet AGL"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 11,
@@ -117,8 +107,7 @@
       "No, because you will pass through Echo airspace.",
       "No, because you will pass through Delta airspace."
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 12,
@@ -128,8 +117,7 @@
       "Class E from 1,200 up to but not including 18,000 feet MSL",
       "Class E from 700 up to but not including 18,000 feet MSL"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 13,
@@ -139,8 +127,7 @@
       "1,200 ft AGL",
       "14,500 ft MSL"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 14,
@@ -150,8 +137,7 @@
       "Class C airspace to 5,000 feet MSL",
       "Class D airspace to 3,200 feet MSL"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 15,
@@ -161,8 +147,7 @@
       "2,000 feet to 2,700 feet MSL",
       "Sea level to 2,000 feet MSL"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 16,
@@ -172,8 +157,7 @@
       "10,900 ft. MSL",
       "11,700 ft. MSL"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 17,
@@ -183,8 +167,7 @@
       "1,300 feet AGL",
       "1,700 feet MSL"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 18,
@@ -194,8 +177,7 @@
       "A nonpublic use airport",
       "A restricted military stage field within restricted airspace"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 19,
@@ -205,8 +187,7 @@
       "ATC clearance required",
       "Waiver must be requested"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 20,
@@ -216,8 +197,7 @@
       "1500 feet MSL",
       "1531 feet AGL"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 21,
@@ -227,8 +207,7 @@
       "Yes, the defined route provides traffic separation to manned aircraft.",
       "Yes, this is a Military Training Route from 1500 feet AGL and below."
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 22,
@@ -238,8 +217,7 @@
       "Unmarked balloon on a cable up to 3,008 feet AGL",
       "Unmarked balloon on a cable up to 3,008 feet MSL"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 23,
@@ -249,8 +227,7 @@
       "Military Training Routes",
       "Victor Airways"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 24,
@@ -260,8 +237,7 @@
       "VFR training flights above 1,500 feet AGL at speeds less than 250 knots.",
       "Instrument training flights below 1,500 feet AGL at speeds in excess of 150 knots."
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 25,
@@ -271,8 +247,7 @@
       "55 feet",
       "5500 feet"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 26,
@@ -282,8 +257,7 @@
       "2,900 feet MSL",
       "2,500 feet MSL"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 27,
@@ -293,8 +267,7 @@
       "Military Operation Area (MOA)",
       "Class E starting at the surface"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 28,
@@ -304,8 +277,7 @@
       "The aircraft is East",
       "The aircraft is West"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 29,
@@ -315,8 +287,7 @@
       "122.7",
       "122.95"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 30,
@@ -326,8 +297,7 @@
       "126.0 MHz",
       "122.95 MHz"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 31,
@@ -337,8 +307,7 @@
       "This is a VFR check point for manned aircraft and a higher volume of air traffic should be expected here.",
       "This indicates that there will be a large obstruction depicted on the next printing of the chart."
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 32,
@@ -348,8 +317,7 @@
       "34 pounds",
       "47 pounds"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 33,
@@ -359,8 +327,7 @@
       "aerosinusitis",
       "aerotitis"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 34,
@@ -370,8 +337,7 @@
       "The medical examiner",
       "The Pilot"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 35,
@@ -381,8 +347,7 @@
       "Immediately notify the NTSB",
       "Immediately notify any/all crewmembers, local law enforcement personnel, and bystanders"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 36,
@@ -392,8 +357,7 @@
       "5 SM",
       "3 SM"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 37,
@@ -403,8 +367,7 @@
       "clear of clouds",
       "500 feet above, 1,000 feet horizontally"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 38,
@@ -414,8 +377,7 @@
       "Systematically focus on different segments of the sky for short intervals",
       "Concentrate on relative movement detected in the peripheral vision area"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 39,
@@ -425,8 +387,7 @@
       "Category 2",
       "Category 3"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 40,
@@ -436,8 +397,7 @@
       "Every 12 months",
       "Every 24 months"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 41,
@@ -447,8 +407,7 @@
       "File a report to the FAA Administrator, as soon as possible",
       "File a detailed report to the FAA Administrator, upon request"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 42,
@@ -458,8 +417,7 @@
       "Dissipating",
       "Mature"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 43,
@@ -469,8 +427,7 @@
       "faster speed",
       "shorter endurance"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 44,
@@ -480,8 +437,7 @@
       "Follow normal sUAS operational procedure, noting any mode or control changes that normally occur if GPS is lost",
       "Land the unmanned aircraft immediately prior to loss of control"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 45,
@@ -491,8 +447,7 @@
       "Machoism",
       "Impulsivity"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 46,
@@ -502,8 +457,7 @@
       "Per the guidelines of the sUAS manufacturer or the battery manufacturer, whichever is more restrictive",
       "Per the guidelines of the sUAS manufacturer or the battery manufacturer whichever is least restrictive"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 47,
@@ -513,8 +467,7 @@
       "Weekly meetings",
       "Establishing an operational procedure guideline"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 48,
@@ -524,8 +477,7 @@
       "Application of stress management and risk element procedures",
       "The mental process of analyzing all information in a particular situation and making a timely decision on what action to take"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 49,
@@ -535,8 +487,7 @@
       "crew resource management",
       "safety management system"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 50,
@@ -546,8 +497,7 @@
       "Do it quickly to get it over with",
       "Not so fast, think first"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 51,
@@ -557,8 +507,7 @@
       "When acting as a crew chief during launch and recovery",
       "Only when a payload is carried"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 52,
@@ -568,8 +517,7 @@
       "Category 1, and 4",
       "Category 1, 2, and 4"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 53,
@@ -579,8 +527,7 @@
       "90 days",
       "30 days"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 54,
@@ -590,8 +537,7 @@
       "Person Manipulating the controls",
       "Visual Observer"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 55,
@@ -601,8 +547,7 @@
       "14 CFR Part 101",
       "This operation is not subject to FAA regulations"
     ],
-    "correct_answer": 1,
-    "user_answer": ""
+    "correct_answer": 1
   },
   {
     "question_number": 56,
@@ -612,8 +557,7 @@
       "without the possibility of direct human intervention from within or on the aircraft",
       "for hobby and recreational use when not certified"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 57,
@@ -623,8 +567,7 @@
       "Minor bruises",
       "An injury requiring an overnight hospital stay"
     ],
-    "correct_answer": 3,
-    "user_answer": ""
+    "correct_answer": 3
   },
   {
     "question_number": 58,
@@ -634,8 +577,7 @@
       "Judgment and decision making abilities can be adversely affected by even small amounts of alcohol",
       "An increase in altitude decreases the adverse effect of alcohol"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 59,
@@ -645,8 +587,7 @@
       "1,400 feet AGL",
       "400 feet AGL"
     ],
-    "correct_answer": 2,
-    "user_answer": ""
+    "correct_answer": 2
   },
   {
     "question_number": 60,
