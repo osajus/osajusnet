@@ -129,12 +129,6 @@ function attachListeners() {
         if (q < data.length - 1) {
             localStorage.setItem('questionNum', ++q);
             renderAll();
-        } 
-        // Hide button at the limit
-        if (q < data.length - 2) {
-            prevPage.disabled = false;
-        } else {
-            nextPage.disabled = true;
         }
     });
 
@@ -143,12 +137,6 @@ function attachListeners() {
         if (q > 0) {
             localStorage.setItem('questionNum', --q);
             renderAll();
-        }
-        // Hide button at the limit
-        if (q > 0) {
-            nextPage.disabled = false;
-        } else {
-            prevPage.disabled = true;
         }
     });
 
@@ -262,6 +250,26 @@ function updateReviewControls() {
     page.reviewBtn.hidden = !reviewUnlocked || !isFinished;
 }
 
+function updateNavigationButtons() {
+    const q = Number(getLocal('questionNum'));
+    const isFirstQuestion = q === 0;
+    const isLastQuestion = q === data.length - 1;
+    
+    document.getElementById('prevPage').disabled = isFirstQuestion;
+    document.getElementById('nextPage').disabled = isLastQuestion;
+}
+
+function updateEndButtonLabel() {
+    const status = getLocal('userStatus');
+    const endBtn = document.getElementById('endBtn');
+    
+    if (status === 'reviewing') {
+        endBtn.textContent = 'Return to Summary';
+    } else if (status === 'testing') {
+        endBtn.textContent = 'Finish and Submit Test';
+    }
+}
+
 function renderResults() {  
     page.scoreResults.innerHTML = '';
     let [scoreTotal, scorePct] = calcScore();
@@ -311,6 +319,8 @@ function renderResults() {
 function renderAll() {    
     renderSections();
     renderQuestion();
+    updateNavigationButtons();
+    updateEndButtonLabel();
     if (getLocal('userStatus') === 'finished') {
         renderResults();
         updateReviewControls();
