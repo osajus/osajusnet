@@ -21,7 +21,8 @@ const page = {
         reviewPasswordBox:  document.getElementById('reviewPasswordBox'),
         reviewPasswordInput: document.getElementById('reviewPassword'),
         reviewPasswordSubmit: document.getElementById('reviewPasswordSubmit'),
-        reviewMessage:      document.getElementById('reviewMessage')
+        reviewMessage:      document.getElementById('reviewMessage'),
+        testSelect:         document.getElementById('testSelect')
 };
 
 let data = null;
@@ -36,10 +37,10 @@ function setReviewUnlocked(value) {
     localStorage.setItem('reviewUnlocked', reviewUnlocked ? 'true' : 'false');
 }
 
-async function loadJSON() {
+async function loadJSON(testFilename) {
     // loads test data into an object
     try {
-        const response = await fetch('./Tests/test 1 rev D.json');
+        const response = await fetch(`./Tests/${testFilename}`);
         if (!response.ok) throw new Error(`JSON Load Error: ${response.status}`);
         const data = await response.json();
         return data;
@@ -86,6 +87,7 @@ function resetLocal() {
     localStorage.setItem('userAnswers', null);
     localStorage.setItem('userScore', null);
     localStorage.setItem('scoredAnswers', null);
+    localStorage.setItem('selectedTest', '');
     setReviewUnlocked(false);
     return "start";
 }
@@ -101,12 +103,20 @@ function renderSections() {
 
 // attach listeners to various buttons 
 function attachListeners() {    
-    beginBtn.addEventListener('click', () => {
+    beginBtn.addEventListener('click', async () => {
+        if (!page.testSelect.value) {
+            alert('Please select a test before beginning.');
+            return;
+        }
+        localStorage.setItem('selectedTest', page.testSelect.value);
+        data = await loadJSON(page.testSelect.value);
         localStorage.setItem('userStatus', "testing");
         renderAll();
     });
     
     endBtn.addEventListener('click', () => {
+        const confirmed = window.confirm('Are you sure you want to finish your attempt and submit?');
+        if (!confirmed) return;
         localStorage.setItem('userStatus', "finished");
         renderAll();
     });
@@ -125,6 +135,7 @@ function attachListeners() {
     });
 
     nextPage.addEventListener('click', () => {    
+        if (!data) return; // Safety check
         let q = Number(getLocal("questionNum"));
         if (q < data.length - 1) {
             localStorage.setItem('questionNum', ++q);
@@ -133,6 +144,7 @@ function attachListeners() {
     });
 
     prevPage.addEventListener('click', () => {
+        if (!data) return; // Safety check
         let q = Number(getLocal("questionNum"));
         if (q > 0) {
             localStorage.setItem('questionNum', --q);
@@ -141,6 +153,7 @@ function attachListeners() {
     });
 
     possible_answers.addEventListener('click', (e) => {
+        if (!data) return; // Safety check
         const li = e.target.closest('li');
         if (!li) return;
 
@@ -179,6 +192,8 @@ function attachListeners() {
 
 // Renders the current question on the screen
 function renderQuestion() {
+    if (!data) return; // Don't render if data hasn't been loaded yet
+    
     const q = Number(getLocal('questionNum'));
     page.questionHeader.innerHTML = `Question ${q + 1} of ${data.length}`;
     page.questionText.innerHTML = data[q].question_text;
@@ -251,6 +266,8 @@ function updateReviewControls() {
 }
 
 function updateNavigationButtons() {
+    if (!data) return; // Don't update if data hasn't been loaded yet
+    
     const q = Number(getLocal('questionNum'));
     const isFirstQuestion = q === 0;
     const isLastQuestion = q === data.length - 1;
@@ -271,6 +288,8 @@ function updateEndButtonLabel() {
 }
 
 function renderResults() {  
+    if (!data) return; // Don't render if data hasn't been loaded yet
+    
     page.scoreResults.innerHTML = '';
     let [scoreTotal, scorePct] = calcScore();
     const storedScores = JSON.parse(getLocal('scoredAnswers')) ?? [];
@@ -345,7 +364,10 @@ function attachFontSizeControls() {
 }
 
 async function main() {
-    data = await loadJSON();
+    const selectedTest = localStorage.getItem('selectedTest');
+    if (selectedTest) {
+        data = await loadJSON(selectedTest);
+    }
     reviewUnlocked = getReviewUnlocked();
     setFontSize(getFontSize());
     renderAll();

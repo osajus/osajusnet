@@ -1,0 +1,602 @@
+[
+  {
+    "question_number": 1,
+    "question_text": "(Refer to Figure 15) According to the KMEM forecast, what is the earliest time on the 12th (today) at which the visibility may be reduced below the 3SM minimum for sUAS operations?",
+    "possible_answers": [
+      "2000Z",
+      "1720Z",
+      "2200Z"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 2,
+    "question_text": "(Refer to Figure 12) The remarks section for KMDW has \"RAB35\" listed. This entry means",
+    "possible_answers": [
+      "blowing mist has reduced the visibility to 1-1/2 SM",
+      "rain began at 1835Z",
+      "the barometer has risen .35\" Hg"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 3,
+    "question_text": "(Refer to Figure 15) What is the valid period for the TAF for KMEM?",
+    "possible_answers": [
+      "1700Z to 2000Z",
+      "2200Z to 1600Z",
+      "1800Z to 2400Z"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 4,
+    "question_text": "(Refer to figure 15) In the TAF for KMEM, what does SHRA stand for?",
+    "possible_answers": [
+      "A significant change in precipitation is possible",
+      "Rain Showers",
+      "A shift in wind direction is expected"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 5,
+    "question_text": "(Figure 22, Area 3.) Determine the approximate latitude and longitude of Shoshone County Airport.",
+    "possible_answers": [
+      "47º32'N - 116º11'W",
+      "47º32'N - 116º41'W",
+      "47º02'N - 116º41'W"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 6,
+    "question_text": "(Refer to Figure 26, area 2.) What is the approximate latitude and longitude of Cooperstown Airport?",
+    "possible_answers": [
+      "47º55'N - 98º06'W",
+      "47º25'N - 99º54'W",
+      "47°25'N - 98°06'W"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 7,
+    "question_text": "(Refer to Figure 21) What airport is located approximately 47 (degrees) 40 (minutes) N latitude and 101 (degrees) 26 (minutes) W longitude?",
+    "possible_answers": [
+      "Garrison Airport",
+      "Mercer County Regional Airport",
+      "Semshenko Airport"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 8,
+    "question_text": "(Refer to Figure 26) Which airport is located at approximately 46.93°N latitude and 98.02°'W longitude?",
+    "possible_answers": [
+      "Cooperstown",
+      "Jamestown Regional",
+      "Barnes County"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 9,
+    "question_text": "(Refer to Figure 26) You have been asked to inspect the tower just north of Binford. What restrictions should the Remote PIC be concerned to operating the sUAS?",
+    "possible_answers": [
+      "None. The tower is in Class G airspace up to 1200 AGL.",
+      "Restricted airspace exists around the tower. Thus permissions are required from the controlling agency.",
+      "Class E airspace begins at the ground as indicated by the blue hashed lines surrounding the area."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 10,
+    "question_text": "(Refer to Figure 70) What airspace is Hayward Executive in?",
+    "possible_answers": [
+      "Class D",
+      "Class B",
+      "Class C"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 11,
+    "question_text": "(Refer to Figure 71) The floor of the Class E airspace above Georgetown Airport (E36) is at",
+    "possible_answers": [
+      "3,823 feet MSL",
+      "The surface",
+      "700 feet AGL"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 12,
+    "question_text": "(Refer to Figure 25 area 2) The airspace directly overlying Addison Airport (ADS) (Area 2) is",
+    "possible_answers": [
+      "Class D up to 3,000 feet MSL",
+      "Class D up to but not including 3,000 feet MSL",
+      "Class E from the surface up to 3,000 feet MSL"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 13,
+    "question_text": "(Refer to Figure 20, area 1.) You're hired to inspect a group of structures that are under construction 9 statute miles (SM) south of Norfolk Intl airport. What's the highest you're allowed to fly without needing to ask for additional FAA permission?",
+    "possible_answers": [
+      "470 ft. MSL",
+      "853 ft. AGL",
+      "1,200 ft. MSL"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 14,
+    "question_text": "(Refer to Figure 22, Area 4.) The floor of the controlled airspace overlying the Coeur D'Alene Airport is",
+    "possible_answers": [
+      "700 feet MSL",
+      "at the surface",
+      "700 feet AGL"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 15,
+    "question_text": "(Refer to figure 25, area 2.) The floor of Class B airspace at Addison Airport is",
+    "possible_answers": [
+      "2,500 feet MSL",
+      "At the surface",
+      "3,000 feet MSL"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 16,
+    "question_text": "(Refer to Figure 20, Area 2) You're asked to inspect the high-intensity lighted tower 12 statute miles SE of Lake Drummond. What's the highest you're allowed to fly under Part 107 (as long as you operate under Part 107 rules)?",
+    "possible_answers": [
+      "779 ft. MSL",
+      "1049 ft. MSL",
+      "1436 ft. AGL"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 17,
+    "question_text": "(Refer to Figure 24) Operating a sUAS, can you vertically clear the obstacle on the southeast side of Winnsboro Airport?",
+    "possible_answers": [
+      "No",
+      "UAS operations are prohibited in this area",
+      "Yes"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 18,
+    "question_text": "(Refer to Figure 25 area 4) The floor of Class B airspace overlying Hicks Airport (T67) north-northwest of Fort Worth Meacham Field is:",
+    "possible_answers": [
+      "At the surface",
+      "3,200 feet MSL",
+      "4,000 feet MSL"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 19,
+    "question_text": "(Refer to Figure 24) How close can the Remote PIC fly their sUAS to the Majors airport (GVT) without having to contact ATC?",
+    "possible_answers": [
+      "4 statute miles",
+      "Remote PICs must contact ATC whenever operating within the magenta shading on sectional charts",
+      "4 nautical miles"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 20,
+    "question_text": "(Refer to Figure 23) The top of the group obstruction approximately 11 nautical miles from Savannah VORTAC on the 009-degree radial is:",
+    "possible_answers": [
+      "454 feet MSL",
+      "400 feet AGL",
+      "432 feet MSL"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 21,
+    "question_text": "(Refer to Figure 78) In what airspace is Onawa, IA (K36) located?",
+    "possible_answers": [
+      "Class G",
+      "Class E",
+      "Class D"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 22,
+    "question_text": "(Refer to Figure 20) How would a Remote PIC \"Check NOTAMs\" as noted in the CAUTION box regarding the unmarked balloon?",
+    "possible_answers": [
+      "By utilizing the B4UFLY mobile application",
+      "By obtaining a briefing via an online source such as 1800WXbrief.com",
+      "By contacting the FAA district office"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 23,
+    "question_text": "(Refer to Figure 21) You have been hired by a farmer to use your small unmanned aircraft to inspect his crops. The area that you are to survey is in the Devil's Lake west MOA, east of area 2. How would you find out if the MOA is active?",
+    "possible_answers": [
+      "Refer to the legend for special use airspace phone numbers",
+      "This information is available in the small UAS database",
+      "Refer to the Military Operations Directory"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 24,
+    "question_text": "(Refer to Figure 76) What's the minimum altitude / lowest elevation of the area depicted by the blue line labeled V71?",
+    "possible_answers": [
+      "700 ft. AGL",
+      "1,200 ft. AGL",
+      "3,500 ft. AGL"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 25,
+    "question_text": "(Refer to Figure 20 Area 4.) What hazards to aircraft may exist in restricted areas such as R-5302B?",
+    "possible_answers": [
+      "Military training activities that necessitate acrobatic or abrupt flight maneuvers.",
+      "Unusual, often invisible, hazards such as aerial gunnery or guided missiles.",
+      "High volume of pilot training or an unusual type of aerial activity."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 26,
+    "question_text": "(Refer to Figure 20.) Who would a Remote Pilot in Command contact to \"CHECK NOTAMS\" as it is noted in the CAUTION box regarding the unmarked balloon?",
+    "possible_answers": [
+      "FAA district office",
+      "Flight Service",
+      "NTSB office"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 27,
+    "question_text": "(Refer to Figure 20, area 2) The elevation of the Chesapeake Regional Airport is",
+    "possible_answers": [
+      "23 feet",
+      "55 feet",
+      "19 feet"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 28,
+    "question_text": "(Refer to Figure 26, area 2.) While monitoring the Cooperstown CTAF you hear an aircraft announce that they are left base to RWY 31. Where would the aircraft be relative to the runway?",
+    "possible_answers": [
+      "The aircraft is South",
+      "The aircraft is East",
+      "The aircraft is North"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 29,
+    "question_text": "(Refer to Figure 22) At Coeur D'Alene, which frequency should be used as a common traffic advisory frequency (CTAF) to monitor airport traffic?",
+    "possible_answers": [
+      "122.05 MHz",
+      "122.8 MHz",
+      "135.075 MHz"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 30,
+    "question_text": "(Refer to Figure 69.) What is the ATIS frequency at Corpus Christi Intl airport (CRP), and what is ATIS used for?",
+    "possible_answers": [
+      "119.4, and ATIS is a nongovernment air/ground radio communication station which may provide airport information at public use airports where there's no tower or FSS",
+      "126.8, and ATIS is a continuous broadcast of recorded aeronautical information in busier airports",
+      "122.95, and ATIS is a continuous broadcast of recorded aeronautical information in busier airports"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 31,
+    "question_text": "(Refer to Figure 20) You need to operate your sUAS in close proximity of the Elizabeth City CGAS RGL (ECG) airport. What frequency should be used to contact ATC?",
+    "possible_answers": [
+      "122.95",
+      "120.5",
+      "124.375"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 32,
+    "question_text": "(Refer to figure 2.) If an airplane weighs 23 pounds, what approximate weight would the airplane structure be required to support during a 60° banked turn while maintaining altitude?",
+    "possible_answers": [
+      "23 pounds",
+      "34 pounds",
+      "46 pounds"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 33,
+    "question_text": "(Figure 22, area 1.) The floor of the controlled airspace overlying the Sandpoint Airport is",
+    "possible_answers": [
+      "700 feet AGL",
+      "at the surface",
+      "700 feet MSL"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 34,
+    "question_text": "You have received an outlook briefing from flight service through 1800wxbrief.com. The briefing indicates you can expect a low-level temperature inversion with high relative humidity. What weather conditions would you expect?",
+    "possible_answers": [
+      "Smooth air, poor visibility, fog, haze, or low clouds",
+      "Light wind shear, poor visibility, haze, and light rain",
+      "Turbulent air, poor visibility, fog, low stratus type clouds, and showery precipitation"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 35,
+    "question_text": "What antidotal phase can help reverse the hazardous attitude of impulsivity",
+    "possible_answers": [
+      "It could happen to me",
+      "Do it quickly to get it over with",
+      "Not so fast, think fast"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 36,
+    "question_text": "Which of the following sources of information should you consult first when determining what maintenance should be performed on a sUAS or its components?",
+    "possible_answers": [
+      "Local pilot best practices",
+      "14 CFR Part 107",
+      "Manufacturer guidance"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 37,
+    "question_text": "What are the standard temperatures and pressure values for sea level?",
+    "possible_answers": [
+      "59 degrees C and 1013.2 millibars",
+      "59 degrees C and 29.92 millibars",
+      "15 degrees C and 29.92 Hg"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 38,
+    "question_text": "Guy wires which support antenna towers can extend horizontally. Therefore the towers should be avoided horizontally by at least",
+    "possible_answers": [
+      "2,000 feet horizontally",
+      "300 feet horizontally",
+      "1,000 feet horizontally"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 39,
+    "question_text": "The night blind spot occurs",
+    "possible_answers": [
+      "Only in your peripheral vision",
+      "In the center of your field of vision",
+      "Throughout the entire field of vision"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 40,
+    "question_text": "Which category of operations over people is allowed for operations conducted over a closed or restricted-access site?",
+    "possible_answers": [
+      "Category 3",
+      "Category 2",
+      "Category 1"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 41,
+    "question_text": "Under what conditions would a small unmanned aircraft not have to be registered before it is operated in the United States?",
+    "possible_answers": [
+      "When the aircraft has a takeoff weight that is more than .55 pounds but less than 55 pounds, not including fuel and necessary attachments",
+      "When the aircraft weighs less than .55 pounds on take-off, including everything that is onboard or attached to the aircraft and that is flown exclusively under the exception for recreational flyers.",
+      "All small unmanned aircraft need to be registered regardless of the weight of the aircraft before, during, or after the flight"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 42,
+    "question_text": "You are part of a news crew, operating an sUAS to cover a breaking story. You experience a flyaway during landing. The unmanned aircraft strikes a vehicle, causing approximately $800 worth of damage. When must you report the accident to the FAA?",
+    "possible_answers": [
+      "If requested",
+      "Within 30 days",
+      "Within 10 days"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 43,
+    "question_text": "While operating a sUAS just south of a controlled airport with authorization, ATC notifies you to stay clear of the runway 6 final approach course. What action should you take to comply with this request?",
+    "possible_answers": [
+      "Stay clear of areas to the east and north of your area of operation",
+      "Stay clear of areas to the west and north of your area of operation",
+      "Stay clear of areas to the west and south of your area of operation"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 44,
+    "question_text": "The weather report lists the ceiling at 800 feet. What is the highest you can operate your sUAS?",
+    "possible_answers": [
+      "200 feet AGL",
+      "800 feet AGL",
+      "300 feet AGL"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 45,
+    "question_text": "In a 45 degree banking turn, a UAV will",
+    "possible_answers": [
+      "be more susceptible to spinning",
+      "stall at a higher speed",
+      "Stall at a lower airspeed"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 46,
+    "question_text": "What antidotal phrase can help reverse the hazardous attitude of \"antiauthority\"?",
+    "possible_answers": [
+      "Rules do not apply for this situation",
+      "I know what I am doing",
+      "Follow the rules"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 47,
+    "question_text": "Automatic Terminal Information Service (ATIS) is the continuous broadcast of recorded information concerning",
+    "possible_answers": [
+      "pilots of radar-identified aircraft whose aircraft is in dangerous proximity to terrain or to an obstruction",
+      "nonessential information to reduce frequency congestion",
+      "non-control information in selected high-activity terminal areas. ATIS is the continuous broadcast of recorded non-control information in selected high-activity terminal areas"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 48,
+    "question_text": "An ATC radar facility issues the following advisory to a manned pilot flying north in a calm wind: \"UNMANNED AIRCRAFT OPERATIONS 9'O CLOCK, 2 MILES...\" Where should the remote PIC (also visual observer) look for this traffic in reference to the UA?",
+    "possible_answers": [
+      "North",
+      "East",
+      "West"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 49,
+    "question_text": "A common cause of sUAS flyaway events is",
+    "possible_answers": [
+      "frequency interference",
+      "loss of GPS signals",
+      "persons standing close to the control station antenna"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 50,
+    "question_text": "Upon GPS signal loss, the remote Pilot should immediately",
+    "possible_answers": [
+      "contact ATC and declare an emergency",
+      "perform the planned lost link contingency procedure",
+      "operate the sUAS normally, noting to account for any mode or control changes that occur if GPS is lost"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 51,
+    "question_text": "In which of the following scenarios is a remote PIC not required to perform a preflight inspection of their sUAS?",
+    "possible_answers": [
+      "Preflight inspections are required before each flight. Thus us no scenario precludes such an inspection.",
+      "If the subsequent flight occurs immediately, following a flight before which an inspection was made.",
+      "Preflight inspections are only required for the first flight of the day. So any other flight does not require such an inspection."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 52,
+    "question_text": "Which crewmember must hold a remote pilot certificate with a sUAS rating?",
+    "possible_answers": [
+      "Person manipulating the controls",
+      "Visual Observer",
+      "Remote pilot-in-command"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 53,
+    "question_text": "Which category of operations over people is limited to sUAS that weigh 0.55 pounds or less, including everything on board or attached?",
+    "possible_answers": [
+      "Category 1",
+      "Category 2",
+      "Category 4"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 54,
+    "question_text": "What may be used to assist compliance with sUAS see-and-avoid requirements?",
+    "possible_answers": [
+      "Binoculars",
+      "Remote pilot diligence",
+      "First-person view camera"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 55,
+    "question_text": "The basic weather minimums for operating a sUAS up to the 400 AGL limit are",
+    "possible_answers": [
+      "900 foot ceiling and 3 mile visibility",
+      "2000 foot ceiling and 1 mile visibility",
+      "Clear of clouds and 2 mile visibility"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question_number": 56,
+    "question_text": "Power company employees use a sUAS to inspect a long stretch of high voltage power lines due to muddy condition, their vehicle must stay beside the road and the crew must use binoculars to maintain visual line of sight with the aircraft. Is this sUAS operation in compliance with 14 CFR Part 107?",
+    "possible_answers": [
+      "No, the operation is not in compliance with Part 107.",
+      "Yes, the operation is in compliance with Part 107.",
+      "There is not enough information to make a determination"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question_number": 57,
+    "question_text": "Under what conditions would a small unmanned aircraft not have to be registered before it is operated in the United States?",
+    "possible_answers": [
+      "When the aircraft has a takeoff weight that is more than .55 pounds but less than 55 pounds, not including fuel and necessary attachments",
+      "When the aircraft weighs less than .55 pounds on take-off, including everything that is onboard or attached to the aircraft and that is flown exclusively under the exception for recreational flyers.",
+      "All small unmanned aircraft need to be registered regardless of the weight of the aircraft before, during, or after the flight"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 58,
+    "question_text": "A crew conducting surveillance anticipates losing visual line of sight with the sUAS within a small segment of the flight plan. The flight",
+    "possible_answers": [
+      "may be conducted using binoculars",
+      "must be rerouted to maintain visual line of sight",
+      "may be conducted if the visual line of sight can be maintained for 50% of the route"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 59,
+    "question_text": "According to 14 CFR Part 48, when would a small unmanned aircraft owner not be permitted to register it?",
+    "possible_answers": [
+      "All persons must register their small unmanned aircraft.",
+      "The owner is less than 13 years of age.",
+      "If the owner does not have a valid US driver's license."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question_number": 60,
+    "question_text": "What FAA resource can pilots reference to learn more about the impact of drugs and alcohol on flight?",
+    "possible_answers": [
+      "The Pilot's Handbook of Aeronautical Knowledge",
+      "The Pilot Operating Handbook",
+      "NOTAMs"
+    ],
+    "correct_answer": 1
+  }
+]

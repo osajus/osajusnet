@@ -49,6 +49,30 @@ button:disabled {
     cursor: not-allowed;
 }
 
+select {
+    font: inherit;
+    border: 1px solid #44546f;
+    background: #ffffff;
+    color: #1d2939;
+    border-radius: 0.35rem;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+select:hover,
+select:focus-visible {
+    background-color: #e8effb;
+    outline: none;
+    border-color: #3265b0;
+}
+
+#testSelectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .page-header {
     display: flex;
     flex-wrap: wrap;

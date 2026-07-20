@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Part 107 Practice Test</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -22,11 +23,19 @@
     <div id="startSection">
         <p>This is a practice test for the Part 107 exam.</p>
         <p>This is for self-evaluation only.  No data is kept by the site owner.</p>
-        <p>Many of these questions require the FAA publication: <br> <a href="https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf" target="_new">Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot and Private Pilot (FAA-CT8080-2H [Publish Date: 2018])</a> </p>
-        <p>Alternatively, a smaller curated version of this publication is available <a href=" https://drive.proton.me/urls/Z7NJRJZ7VR#mUXn88BrjZVA" target="_new">here</a></p>
+        <p>Many of these questions require the FAA publication: <br> <i>Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot and Private Pilot (FAA-CT8080-2H [Publish Date: 2018]) </i></p>
+        <ol><a href="https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf" target="_new">Supplement - Full Version</a><br>
+        <a href="https://drive.proton.me/urls/Z7NJRJZ7VR#mUXn88BrjZVA" target="_new">Supplement - Condensed Version</a></ol></p>
         <p>Please wait to begin the test until you have been instructed.</p>
-        <p>Once finished, leave this site up and please move yourself to the Zoom room "I'm Finished".  Wait for further instructions from your instructor.</p>
-        <button id="beginBtn">Begin</button>
+        <p>Once finished, leave this site up and please move yourself to the Zoom room "I'm Finished".  Wait for further instructions from your instructor.</p>        
+        <div id="testSelectionContainer" style="margin: 20px 0;">
+            <label for="testSelect">Select a test:</label>
+            <select id="testSelect" aria-label="Select which test to take">
+                <option value="">-- Choose a test --</option>
+                <option value="test 1 rev D.json">Test 1</option>
+                <option value="test 2 rev C.json">Test 2</option>
+            </select>
+        </div>        <button id="beginBtn">Begin</button>
     </div>
 
     <div id="testSection">
@@ -58,6 +67,7 @@
         <p>The test has ended.</p>
         <p>Leave this site up and please move yourself to the Zoom room "I'm Finished". Wait for further instructions from your instructor.</p>
         <p>Once everyone is finished, your instructor will provide you a password for review.</p>
+        <p>You needed 70% (42 questions) to pass.</p>
         <div id="scoreResults"></div>
 
         <div class="password-row" id="reviewPasswordBox">
